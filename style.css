@@ -20,4 +20,45 @@ body {
 }
 .main-content .header-area h2 {
   font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.main-content .add-task {
+  background-color: #157347b4;
+  padding: 30px 30px 40px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-content .add-task h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+}
+.main-content .all-tasks {
+  padding: 30px 0;
+}
+.main-content .all-tasks .cards {
+  padding: 30px;
+  border: 1px dashed rgb(0, 128, 0);
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-content .all-tasks .cards .task-title {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.main-content .all-tasks .cards .single-task {
+  padding: 8px 0;
+  border-bottom: 1px dashed rgb(0, 128, 0);
+}
+.main-content .all-tasks .cards .complete-single {
+  padding: 8px 0;
+  border-bottom: 1px dashed rgb(0, 128, 0);
+}
+.main-content .all-tasks .cards .complete-single .delete {
+  color: #fff;
+  padding: 4px 5px;
+  border: 1px solid rgb(243, 46, 46);
+  background-color: rgb(243, 46, 46);
+
 }
