@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: tahoma;
+}
+body {
+  background-color: rgba(0, 255, 255, 0.159);
+}
+.main-content {
+  padding: 50px;
+}
+.main-content .header-area {
+  text-align: center;
+}
+.main-content .header-area img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+.main-content .header-area h2 {
+  font-size: 35px;
+}
